@@ -7,13 +7,6 @@ class SecretsController < ApplicationController
     end
   end
 
-  # def new
-  # end
-  #
-  # def create
-  #   @secret = Secret.create(secret_id: user_id)
-  # end
-
   private
 
   def require_login
