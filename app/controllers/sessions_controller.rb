@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     if params[:name].nil? || params[:name].empty?
       redirect_to '/login'
     else
-      current_user 
+      session[:name] = params[:name]
     end
   end
 end
