@@ -9,7 +9,7 @@ class SecretsController < ApplicationController
 
   # def new
   # end
-  # 
+  #
   # def create
   #   @secret = Secret.create(secret_id: user_id)
   # end
